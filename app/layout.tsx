@@ -7,6 +7,10 @@ import { ECOSYSTEM } from '@/lib/ecosystem';
 export const metadata: Metadata = {
   title: 'DevEnv — Environment Vault',
   description: 'Securely manage your .env variables per project.',
+  icons: {
+    icon: '/logo.png',
+    apple: '/logo.png',
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
