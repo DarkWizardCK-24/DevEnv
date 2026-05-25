@@ -32,7 +32,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             </div>
             <div className="flex flex-wrap gap-x-5 gap-y-2">
               {ECOSYSTEM.map(app => (
-                <a key={app.name} href={app.url}
+                <a key={app.name} href={app.url} target="_blank" rel="noopener noreferrer"
                   className="text-[11px] text-[var(--color-text-dim)] hover:text-[var(--color-neon-cyan)] transition-colors">
                   {app.name}
                 </a>

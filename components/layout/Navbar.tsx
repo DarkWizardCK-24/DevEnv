@@ -49,7 +49,7 @@ export default function Navbar() {
 
           <div className="w-px h-4 bg-[var(--color-border)] mx-2" />
 
-          <a href="http://localhost:3000"
+          <a href="https://dev-folio-ten-rho.vercel.app" target="_blank" rel="noopener noreferrer"
             className="flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-md border border-[var(--color-border)] text-[var(--color-text-muted)] hover:border-[rgba(0,229,255,0.3)] hover:text-[var(--color-neon-cyan)] hover:bg-[rgba(0,229,255,0.04)] transition-all">
             ↗ DevFolio
           </a>
